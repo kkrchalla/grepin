@@ -1,2 +1,3 @@
-"# grepin" 
-"# grepin" 
+# grepin
+
+A SiteSearch built using Perl and BerkeleyDB.
