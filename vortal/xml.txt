@@ -1,0 +1,36 @@
+<category>
+	<path>
+		/cat1/cat2/cat3
+	</path>
+	<name>
+		Demos
+	</name>
+	<url>
+		<address>
+			http://www.domain.com/page.html
+		</address>
+		<title>
+			The demo page
+		</title>
+		<description>
+			this page describes the format of xml
+		</description>
+		<keywords>
+			xml, demo, format
+		</keywords>
+	</url>
+	<url>
+		<address>
+
+		</address>
+		<title>
+
+		</title>
+		<description>
+
+		</description>
+		<keywords>
+
+		</keywords>
+	</url>
+</category>

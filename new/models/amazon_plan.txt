@@ -1,0 +1,9 @@
+use the search keyword, default mode, and get 4 products and display them
+	1st	my id
+	2nd	his id
+	3rd	my id
+	4th	his id
+use the search keyword, and get the total#s for all the modes, and display the list under the bar
+
+When the link under the bar is clicked,
+	get the whole list and display it

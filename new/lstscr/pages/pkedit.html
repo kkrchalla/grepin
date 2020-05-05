@@ -1,0 +1,126 @@
+<table width="100%">
+<tr>
+<td valign="top">
+
+<br />
+<font size=2 color=bb0000> <b>Products - Keyword -> Manage Products</b>
+<br />
+<br />
+<fieldset>
+<table>
+<tr>
+<td><font face=verdana size=0>
+<blockquote>
+<b>For help with this page, 
+<a href = "#" onClick="HelpWindow=window.open('http://www.grepin.com/faqs.html#pk5','HelpWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=600');HelpWindow.focus();return false;">click here</a>.</b>
+</font>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<table bgcolor=ffffff width="100%">
+<tr>
+<td align=left>
+<a href="http://www.grepin.com/cgi-bin/kwdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Keywords</b></font></a>
+</td>
+<td align=right>
+<a href="http://www.grepin.com/cgi-bin/prdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Products</b></font></a>
+</td>
+</tr>
+</table>
+
+<table bgcolor=ffffff width="100%"><tr><td>
+<font size=1 color=red>:::grepin-fk190:::</font>
+</td></tr></table>
+
+<table bgcolor="ffffff">
+<tr>
+<td align=left><font size=2>Keyword </font></td><td><font size=2>: :::grepin-fk100:::</font></td>
+</tr>
+<tr>
+<td align=left><font size=2>Total # of Products </font></td><td><font size=2>: :::grepin-fk101:::</font></td>
+</tr>
+<table>
+<br />
+<br />
+
+<form action="http://www.grepin.com/cgi-bin/kwdscr" method="post">
+<input type="hidden" name="cmd" value="edit" />
+<input type="hidden" name="fn" value="del" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+<input type="hidden" name="kwd" value=":::grepin-fk100:::" />
+<input type="hidden" name="fk101" value=":::grepin-fk101:::" />
+
+<table bgcolor="ffffff">
+<tr>
+<td valign=top></td>
+<td valign=top><font size=0 color=black face=verdana,helvalica><b>Product</b></td>
+<td valign=top><font size=0 color=black face=verdana,helvalica><b>Title</b></td>
+<td valign=top><font size=0 color=black face=verdana,helvalica><b>Remove</b></td>
+</tr>
+	:::grepin-start-row:::
+	<dl>
+	<dt>
+		<tr>
+		<td valign=center><font size=0 color=red face=courier>:::grepin-ik109:::</td>
+		<td valign=center><font size=0 color=black face=verdana,helvalica><a href = "#" onClick="pr2window=window.open('http://www.grepin.com/cgi-bin/prdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=prd&prd=:::grepin-ik100:::','pr2window','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=500,height=250');pr2window.focus();return false;">:::grepin-ik100:::</a></td>
+		<td valign=center><font size=0 color=black face=verdana,helvalica>:::grepin-ik101:::</td>
+		<td valign=center><font size=0 color=black face=verdana,helvalica><input type=checkbox name="ik102_:::grepin-ik103:::" value=":::grepin-ik100:::" /></td>
+		</tr>
+	</dt>
+	</dl>
+	:::grepin-end-row:::
+</table>
+<br>
+<table>
+ <tr><td>&nbsp;<font size=0 color=red face=courier>-> Theme Product</font></td></tr>
+</table>
+
+<p>
+<table bgcolor="ffffff">
+<tr>
+<td><input type="submit" value="Remove Checked Products"/></td>
+</tr>
+</table>
+</form>
+
+<p>
+<form action="http://www.grepin.com/cgi-bin/kwdscr" method="post">
+<input type="hidden" name="cmd" value="edit" />
+<input type="hidden" name="fn" value="add" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+<input type="hidden" name="kwd" value=":::grepin-fk100:::" />
+
+<table bgcolor=ffffff>
+<tr>
+	<td align=right><font size=2>
+		Product Names
+	</td>
+	<td>&nbsp;&nbsp;
+		<textarea name="fk102" cols=15 rows=6>:::grepin-fk102:::</textarea>
+	</td>
+</tr>
+<tr>
+<td></td>
+<td>
+		&nbsp;&nbsp;&nbsp;<font size=0 color=black face=verdana,helvalica><a href = "#" onClick="pr7window=window.open('http://www.grepin.com/cgi-bin/prdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=prdlist','pr7window','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=450');pr7window.focus();return false;">List of all Products</a></font>
+</td>
+</tr>
+</table>
+
+<br />
+<br />
+<table bgcolor=ffffff>
+<tr>
+	<td><input type="submit" value="Add Products"/></td>
+</tr>
+</table>
+</form>
+
+</td>
+</tr>
+</table>
+<br /><br />

@@ -1,0 +1,69 @@
+Promotion List Report - Detailed
+
+<suggest a feature>
+
+Sort by <Product> <Keyword> <Promotion list> <Source> <Time>
+         -------   -------   --------------   ------   ----
+
+Product		Promotion	Keywords	Time				Clicked?	Source
+Name		List Name	Used						(Y/N)
+
+PRDPRDPRDP	PLPLPLPLPL	KWDKWDKWDK	2005/MM/DD HH:MM:SS.SSSSSS	Y		xxxxxxxxxxxx
+PRDPRDPRDP	PLPLPLPLPL	KWDKWDKWDK	2005/MM/DD HH:MM:SS.SSSSSS	Y		xxxxxxxxxxxx
+
+
+Promotion List Report - Monthly/Summary
+
+<suggest a feature>
+
+	<By Promotion List>
+	<By Product>
+	<By Keyword>
+
+
+
+Promotion List
+--------------
+	Promotion	Num of 		Num of		% CPD
+	List Name	Displays	Clicks		
+
+	PLPLPLPLPL	     347	     200	57.63
+	PLPLPLPLPL	zzzzzzzn	zzzzzzzn	zn.nn
+
+
+Product
+-------
+	Product		Num of 		Num of		% CPD		Keywords
+	Name		Displays	Clicks				used
+
+	PRDPRDPRDP	     347	     200	57.63		<click for the list>(1)
+	PRDPRDPRDP	zzzzzzzn	zzzzzzzn	zn.nn		<click for the list>(1)
+
+
+Keyword
+-------
+	Keyword		Num of 		Num of		% CPD		Products
+			Displays	Clicks				
+
+	KWDKWDKWDK	     347	     200	57.63		<click for the list>(2)
+	KWDKWDKWDK	zzzzzzzn	zzzzzzzn	zn.nn		<click for the list>(2)
+
+
+% CPD = Total Number of Clicks per 100 Displays.
+	Minimum value can be zero.
+	Maximum value can be 100.
+	The higher number the better.
+
+ftrack:
+	ipaddr
+	promotionlist
+	products (array for display event)
+	keyword
+	event (display, click)
+	source
+	time
+	promotion tracking # (used to track the display and click)(if display and click have same tracking #)
+	promotion list options
+		bar type
+		bar size
+		etc..,.

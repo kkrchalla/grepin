@@ -1,0 +1,217 @@
+Amazon (as defined below) provides Amazon Web Services (as defined below) to you subject to the following conditions.  You must be 18 years of age or older to utilize Amazon Web Services.  This is a legal agreement between you and Amazon. In consideration of Amazon allowing you to use Amazon Web Services and by receiving Amazon Properties (as defined below) or accessing Amazon Web Services you represent that you are 18 years of age or older, agree to be bound by the terms of this licensing agreement ("Agreement") and consent to receive email newsletters and operational communications from Amazon Web Services.  You may unsubscribe from the newsletter emails at any time. If you do not agree, you may decline this Agreement by not checking the box on the AWS Registration Form and discontinuing the registration process.
+
+"Amazon Web Services" is a platform which:  (i) enables the creation of websites and applications that perform various functions, such as enabling and completing transactions, retrieving information about Amazon products or adding a product to an Amazon shopping cart, wish list, or registry (such websites and applications collectively, "Applications"); and (ii) provides information about the world wide web, including but not limited to information about individual URLs, web sites and web search functionality (the "Alexa Data"), through its corporate affiliate, Alexa Internet, Inc. ("Alexa").  Amazon Web Services can be accessed through two interfaces: XML over HTTP or SOAP.  Both of these methods return "structured data" (product name, manufacturer, price, etc.) about products available at www.amazon.com, www.amazon.ca, www.amazon.co.jp, www.amazon.de, www.amazon.fr, and/or www.amazon.co.uk (collectively, the "Amazon Website"), and information obtained from the world wide web, based on parameters such as keyword search terms and browse tree nodes. All information you receive from Amazon, and your use of it, is subject to the terms and conditions of this Agreement. 
+
+1.	GRANT
+
+As a subscriber to Amazon Web Services, you may use any Alexa Data and any data, images, text, content, tools or other information (collectively with the Alexa Data referred to as the "Amazon Properties") received via Amazon Web Services in accordance with the terms and conditions described herein.  By signing up to use Amazon Web Services you agree that you will provide accurate information during the registration process. Amazon retains all rights not expressly granted by this Agreement. "Amazon", "us" and "we" means:
+
+*	Amazon Services, Inc. if you are accessing data from Alexa or data associated with products available at www.amazon.com;
+*	Amazon Services Europe SARL if you are accessing data associated with products available at www.amazon.co.uk, www.amazon.de, or www.amazon.fr; and
+*	Amazon Services International, Inc. if you are accessing data associated with products available at www.amazon.co.jp or www.amazon.ca.
+You may only use Amazon Web Services and the Amazon Properties as follows: 
+
+A. 	General
+
+1) You may write an application that interfaces with Amazon Web Services; 
+
+2) You may make calls by ASIN, browse ID, Listmania(r) ID or keyword (or by any other method Amazon may permit in the future) to Amazon Web Services 24hrs a day, 7 days a week, provided you: (i) do not exceed 1 call per second or send files greater than 40K, and (ii) in regards to obtaining the Alexa Data, do not exceed a maximum of 10,000 requests per 24 hour period. If you build and release an Application, the 1 call per second limitation applies to each installed copy of the Application. 
+
+3) You may not sell, redistribute, sublicense or transfer all or any portion of the Amazon Properties, however this restriction does not apply to the Alexa Data; 
+
+4) You are responsible for complying with all applicable laws or regulations of any country or other jurisdiction and may not use Amazon Web Services or any Amazon Properties in a manner that violates any proprietary rights or any jurisdiction's laws, nor may you use any Amazon Properties in a way that would be libelous or defamatory or otherwise malicious or harmful to any person; 
+
+5) You may not interfere or attempt to interfere in any manner with the proper working of Amazon Web Services; 
+
+6) You may not use or allow to be used the Amazon Properties on or within any Application if the Application violates any of the following restrictions: 
+
+*	promotes sexually explicit materials 
+*	promotes violence 
+*	promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation, or age 
+*	promotes illegal activities 
+*	otherwise violates intellectual property rights 
+
+By utilizing Amazon Web Services you agree that you will not engage in any such activities using your Application.  If we issue you a developer token and your Application is thereafter determined (in our sole discretion) to be unsuitable for Amazon Web Services, we may terminate this Agreement.
+
+You acknowledge that we (and our corporate affiliates, such as Alexa) may crawl or otherwise monitor your Application for the purpose of ensuring the quality and reliability of links on or within your Application (for example, to detect links that are broken or non-functional, links to products that are out of stock or otherwise unavailable, etc.).  Therefore, you agree that we and our corporate affiliates may take such actions and that you will not seek to block or otherwise interfere with such crawling or monitoring (and that we and our corporate affiliates may use technical means to overcome any methods used on your Application to block or interfere with such crawling or monitoring). 
+
+Further, you acknowledge and agree that you will: (a) not, in connection with this Agreement, display or reference on or within your Application, any trademark or logo of any third party seller on the Amazon Website; (b) use any of the Amazon Properties or other information obtained by you from us or the Amazon Website in connection with this Agreement only in a lawful manner and only in accordance with the terms of this Agreement; and (c) not modify or alter any Amazon Property that consists of a graphic image, other than to resize it; 
+
+7) You may create, obtain and provide content to us in accordance with Section 6, "Providing Content To Amazon", below; 
+
+8) You may not obtain pricing information through Amazon Web Services unless you are either (a) a seller on the Amazon Website and are using that data for the purposes of competitively pricing your products to be sold via the Amazon Website, or (b) an authorized participant in the Amazon Services Associates program and are using that data for the purposes of merchandising Amazon products on or within your Application; and
+
+9) You may not compile or use the Amazon Properties or any other information obtained through Amazon Web Services for the purpose of direct marketing, contacting sellers or customers, or any other use which is specifically prohibited by this Agreement.
+
+B. 	Display
+
+1) You may display the Amazon Properties in any format you choose, subject to the terms and conditions contained in this Agreement; 
+
+2) You may edit the Amazon Properties that consist of text content only to shorten their length.  You cannot add additional information to the Amazon Properties, for instance by inserting words into a customer review or supplementing a wish list or Listmania(r) list with new items; 
+
+3) You may not remove, obscure, or alter any notice of patent, copyright, trademark, or other proprietary right appearing on or contained within Amazon Web Services or within any Amazon Properties; and 
+
+4) If you choose to display the Amazon Property known as "Quick-Click?", you may not misrepresent the applicable product or its price, or alter the Quick-Click window or the code or the messaging being served by Amazon. 
+
+C. 	Linking and Diversion
+
+This Section 1.C. does not apply to the Alexa Data.
+
+1) You must either: 1) link each of the Amazon Properties that is displayed on or within your Application to (a) a product detail page of the Amazon Website, or (b) any other page of the Amazon Website, including the Amazon homepage; or 2) if your Application does not support the concept of linking, otherwise provide your users with a method to visit the Amazon Website in conjunction with any use of any Amazon Properties.;
+
+2) You may not link any of the Amazon Properties presented on or within your Application (a) to any commercial page of a website other than the Amazon Website, or (b) in conjunction with any Amazon Property, direct traffic to any commercial page of a website other than the Amazon Website; and 
+
+3) You may however have links from content other than the Amazon Properties on or within your Application which link to competitor, informational or other websites.  
+
+D. 	Storage and Obligation to Refresh
+
+1) You may store Amazon Properties generally (other than pricing or availability information) for caching purposes for up to 24 hours, however, you may store the following Amazon Properties for caching purposes for up to 3 months: 
+
+URL	        ASIN	        Product Name	        Catalog
+Artists	        Authors	        MPN		        Starring
+ISBN	        Directors	Manufacturer		Media
+Distributor 	Release Date	Publisher		Num Media
+UPC	        Reading Level	Theatrical Release Date	Platforms
+MpaaRating	EsrbRating	AgeGroup		Encoding
+
+Without limitation of Amazon's rights under Section D4 below, you specifically acknowledge and agree that at any time Amazon may direct you to delete any of the above Amazon Properties and you will promptly comply with any such direction. 
+
+2) You must refresh and re-display any Amazon Properties (other than pricing or availability information) at least once every 24 hours or 3 months, as applicable, by making a call to Amazon Web Services and refreshing your Application's contents immediately after the call; 
+
+3) If you display pricing or availability information on or within your Applica
+tion, you must refresh the information by making a call to Amazon Web Services at least once per week and re-display the information and refresh your Application's contents immediately after the call; 
+
+4) If you choose to make a call to Amazon Web Services less frequently than hourly, you must include a time/date stamp adjacent to the pricing or availability information.  (If the pricing or availability information being displayed was requested on the current day, you may omit the date portion of the stamp.)  Additionally, you must include the following disclaimer either adjacent to the pricing or availability information, or provide it via a hyperlink, popup box, scripted popup, or other similar method:
+
+Price is accurate as of the date/time indicated.  Prices and product availability are subject to change.  Any price displayed on the Amazon website at the time of purchase will govern the sale of this product.
+	
+Examples of acceptable messaging include:
+
+Amazon.com Price: $32.77 (as of 01/07/2004 14:11 PST - Details)
+
+Amazon.com Price: $32.77 (as of 14:11 PST - More info)
+
+In the above examples, "Details" and "More info" would provide a method for the user to read the disclaimer.
+
+In addition, if you create a handheld or other mobile Application, instead of displaying the time/date stamp and disclaimer next to the pricing or availability information, you may show that information in a dialog box each time the Application is started. 
+
+5) You may not continue to use, and must immediately remove from your Application and any personal database or server (or any other repository in your possession or under your control), any Amazon Properties that return a null value when an Amazon Web Services call is made or that we notify you are no longer available for use; and
+
+6) You may not store any Amazon Properties in any database, or network of servers, or other repository, either with or without a central location, which enables others to share the Amazon Properties.
+
+If you are unsure of whether what you wish to do is permitted under this Agreement, please contact webservices@amazon.com. 
+
+2.	ADDITIONAL SERVICES
+
+You have the option of accessing a variety of additional services offered through Amazon Web Services, subject to the terms of this Agreement and any other agreement which may be applicable to a specific service (the "Optional Services").  We reserve the right to begin to charge a fee for any Optional Service at any time in our sole discretion, however if we do so you will not be obligated to continue using the Optional Service.  If we do charge a fee (a) we reserve the right to specify the manner in which you will be charged, and (b) any and all fees payable by you pursuant to this Agreement are expressed exclusive of all taxes and duties, including Value Added Tax ("VAT") or any similar applicable sales tax.  In addition to such fees payable, you will pay any sales, use, value-added or import taxes, customs duties or similar taxes that may be assessed by any state and/or jurisdiction (collectively, "Taxes") that Amazon is legally required to charge on the applicable fees under this Agreement.  If requested to do so by Amazon, or as otherwise required by applicable law, you will supply your VAT identification number to Amazon. 
+
+All amounts payable by you under this Agreement will be made without set-off or counterclaim and free and clear of, and without deduction or withholding for, or on account of, any present or future taxes.  If any such deduction or withholding is so required, you will: (i) pay such additional amounts as may be necessary in order that the net amount that Amazon receives, after such deduction or withholding (including deduction or withholding with respect to additional amounts) will equal the amount that Amazon would have received if no such deduction or withholding had been required; (ii) make such deduction or withholding; and (iii) pay the full amount deducted or withheld to the relevant taxation authority in accordance with applicable Law and forthwith after payment furnish Amazon with a receipt evidencing such payment.
+
+You are solely responsible for any and all activities that occur in connection with your Optional Service account or subscription ID.  You will notify us immediately of any unauthorized use of your Optional Service account or subscription ID, or any other breach of security that is known or suspected by you.  We will not be responsible for any unauthorized access to, alteration of, or the deletion, destruction, damage, loss or failure to store any data, code, information, file, media, image or other material of any nature whatsoever which you submit to or store in an Optional Service account (collectively, "Data").
+
+Your use of any Optional Service provided hereunder is subject to all applicable local, state, national and international laws and regulations, and you will comply with all laws regarding the exportation and re-exportation of any Data from the United States or other jurisdictions.
+
+You will not use an Optional Service for any illegal purpose, including but not limited to:
+
+*	storing, queuing, conveying, retrieving or utilizing any Data that:  (i) is illegal, pornographic or libelous; (ii) violates the intellectual property rights of a third party; or (iii) contains any viruses, worms, "trojan horses" or any other similar contaminating or harmful features;
+*	sending unsolicited or unauthorized advertising, spam, promotional materials, or any other form of unsolicited message, whether commercial or otherwise; or
+*	accessing or attempting to access any Optional Service account which you are not authorized to access.
+
+You are responsible for obtaining all necessary rights to the content of any Data stored or utilized by you in connection with an Optional Service, and ensuring that such content does not violate the terms of this Section 2.  We reserve the right to review and/or remove any Data that we determine, in our sole discretion, to be objectionable or otherwise violates the terms of this Section 2 or any other applicable rules or conditions of use.
+
+Additionally, we may access your Optional Service account, including any Data, to service, maintain, and improve the Optional Services and to respond to service or technical problems. In addition, we reserve the right to monitor, retain and/or disclose information regarding any Optional Service account or Data as we believe is appropriate to comply with the law; enforce or apply this Agreement and other agreements; or protect the rights, property or safety of Amazon.com, our users, or others.  Other than as set out above, we do not analyze the Data or use it for other purposes without your prior consent.  Upon your written or electronic request, we use reasonable commercial efforts to remove your Data from the Optional Service.
+
+3.	OWNERSHIP
+
+You retain all intellectual property rights you may have in the Applications, materials, products or processes you create which are based on or utilize Amazon Web Services or an Optional Service (subject to Amazon's underlying rights in Amazon Web Services,  Amazon Properties and the Optional Services). You hereby release and covenant not to sue Amazon and its corporate affiliates and any of their licensees, assigns or successors, for any and all damages, liabilities, causes of action, judgments, and claims (a) pertaining to any intellectual property you develop that is based on, uses, or relates to Amazon Web Services or an Optional Service; and (b) which otherwise may arise in connection with your use of, reliance on, or reference to Amazon Web Services or an Optional Service. As between you and Amazon, we and our applicable licensors retain all intellectual property rights (including all patent, trademark, copyright, and other proprietary rights) in and to Amazon Web Services, the Amazon Properties and the Optional Services provided via Amazon Web Services and any derivative works created by or for Amazon pursuant to the license in Section 6 below.
+
+We disclaim all liability, and you will be solely responsible for, the development, operation, and maintenance of your Application and for all materials that appear on or within your Application. For example, you will be solely responsible for: 
+
+*	the technical operation of your Application and all related equipment 
+*	creating and posting product descriptions on your site and linking those descriptions to our catalog 
+*	the accuracy and appropriateness of materials posted on or within your Application (including, among other things, all product-related materials) 
+*	ensuring that materials posted on or within your Application do not violate or infringe upon the rights of any third party (including, for example, copyrights, trademarks, privacy, or other personal or proprietary rights) 
+*	ensuring that materials posted on your site are not libelous or otherwise illegal 
+*	ensuring that your Application accurately and adequately discloses, either through a privacy policy or otherwise, how you collect, use, store, and disclose data collected from visitors, including, where applicable, that third parties (including advertisers) may serve content and/or advertisements and collect information directly from visitors and may place or recognize cookies on visitors' browsers. 
+
+4.	USE OF AMAZON TRADEMARKS 
+
+As long as you are in compliance with the terms of this Agreement, we grant you a nonexclusive, revocable, royalty-free license to use any graphic images and text described in Section 5 and such other text or images for which we grant express permission, solely for the purpose of indicating that a material, product or process that you created is used or based on Amazon Web Services.  However, you may not do so if that material, product or process (a) disparages, tarnishes, infringes, or dilutes Amazon's or its licensors' trademarks, (b) violates any applicable law, or (c) infringes any third-party's rights or if you are notified by Amazon that in Amazon's opinion the product or service is objectionable for any reason.  You may not modify the graphic image or text, or any other of our images, in any way.  We reserve all of our rights in the graphic images and text, any other images, our trade names and trademarks, and all other intellectual property rights.  You agree to follow our Trademark Guidelines, as those guidelines may change from time to time. We may revoke your license at any time by giving you notice.  Other than as specified in this Agreement, you may not use any trademark, service mark, trade name or other business identifier of Amazon or its affiliates or third parties that sell products on the Amazon Website unless you obtain Amazon's and any applicable third party's prior written consent. The foregoing prohibition includes the use of "amazon," any other trademark of Amazon or its affiliates, or variations or misspellings of any of them, in the name of an Application or in a URL to the left of the top-level domain name (e.g., ".com", ".net", ".uk", etc.) -- for example, a URL such as "amazon.mydomain.com", "amaozn.com" or "amazonauctions.net" would not be acceptable. 
+
+5.	IDENTIFYING YOURSELF AS A USER OF AMAZON WEB SERVICES
+
+You may generally publicize your use of Amazon Web Services or any application you develop to work in conjunction with Amazon Web Services, however you may not issue any press release with respect to Amazon Web Services or this Agreement; such action may result in our termination of the license granted hereunder.  We will make available to you certain small graphic images that you may use in conjunction with the display of the Amazon Properties. For instance, if you display Listmania(r) information on or within your Application, you may, but do not have to, display the Listmania logo. We may modify any graphic images provided to you and/or this notice from time to time. In addition, you may not in any manner misrepresent or embellish the relationship between us and you, or express or imply any relationship or affiliation between us and you or any other person or entity except as expressly permitted by this Agreement (including by expressing or implying that Amazon, its affiliates or any third party that sells any products or services on the Amazon Website supports, sponsors, endorses, or contributes money to you or your business endeavors). 
+
+6.	PROVIDING CONTENT TO AMAZON 
+
+You may provide text, images, reviews and other informational content ("Content") about a product to Amazon. If you do so, you hereby grant to Amazon a perpetual, royalty-free, non-exclusive, worldwide, irrevocable right and license to: (a) use, reproduce, perform, display and distribute the Content in any manner, (b) adapt, modify, re-format and create derivative works of the Content for any purpose, and (c) sublicense the foregoing rights to its affiliates or any third parties. Additionally, you represent and warrant that: (a) the Content is your original work or you obtained the Content in a lawful manner, and (b) Amazon's and its sublicensees' use of the Content as specified above will not violate any third party's rights, including but not limited to copyright rights. Amazon reserves the right, but is not obligated to, use and publish your name in the form of a credit in conjunction with the Content you supply to Amazon, and by supplying any Content, you grant Amazon the irrevocable right to do so. 
+
+7.	BETA TESTING
+
+From time to time Amazon may conduct open beta tests (each a "Beta Test") of new versions of Amazon Web Services (each a "Beta Test Product").  Each Beta Test will be clearly identified as such, and if you choose you can participate in each Beta Test, at no cost, in accordance with the terms and conditions in this Agreement.  By choosing to participate in a Beta Test:
+
+*	You understand that the overall design of the Beta Test Product could change throughout the course of the Beta Test and that Amazon reserves the right to change or withdraw the Beta Test Product, discontinue the Beta Test, revoke your license to the Beta Test, or release the Beta Test Product as a final version at any time in its sole discretion.
+*	You agree to record and report all problems, issues, and suggestions for enhancements to the Beta Test Product to Amazon on a timely basis to the email address that will be provided to you along with the beta testing materials, and during the Beta Test period, you will not speak to the press regarding the Beta Test or the Beta Test Product, and will discuss them only in the forums and locations specifically designated by Amazon for this purpose.
+*	You agree to assign ownership of any ideas, information, concepts and suggestions that you create during the beta test, and which pertain to your evaluation or use of the Beta Test Product during the Beta Test, to Amazon and acknowledge that Amazon has the unrestricted right to use and exploit those items in any manner, with or without attribution, and without compensation or any duty to account to you for their use.
+*	You agree that any applications you build and release based on the Beta Test Product during the Beta Test will be labeled as "beta".
+
+8.	DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY 
+
+AMAZON WEB SERVICES, ALL AMAZON PROPERTIES AND THE OPTIONAL SERVICES ARE PROVIDED BY AMAZON ON AN "AS IS" AND "AS AVAILABLE" BASIS. AMAZON MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF AMAZON WEB SERVICES, THE AMAZON PROPERTIES AND THE OPTIONAL SERVICES.  YOU EXPRESSLY AGREE THAT YOUR USE OF AMAZON WEB SERVICES, THE AMAZON PROPERTIES AND THE OPTIONAL SERVICES ARE AT YOUR SOLE RISK. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, AMAZON DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT OF PROPRIETARY RIGHTS AND ANY IMPLIED WARRANTIES ARISING OUT OF ANY COURSE OF DEALING OR USAGE OF TRADE. AMAZON DOES NOT WARRANT THAT AMAZON WEB SERVICES, THE AMAZON PROPERTIES OR THE OPTIONAL SERVICES ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THEY WILL BE ACCESSIBLE ON A PERMANENT BASIS OR WITHOUT INTERRUPTION OR THAT THE DATA YOU STORE IN ANY OPTIONAL SERVICE ACCOUNT WILL NOT BE LOST OR DAMAGED. AMAZON WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM YOUR USE OF, OR INABILITY TO USE, AMAZON WEB SERVICES, THE AMAZON PROPERTIES OR THE OPTIONAL SERVICES, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, AND CONSEQUENTIAL DAMAGES. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS, EXCLUSIONS, OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MIGHT HAVE ADDITIONAL RIGHTS. 
+
+THIS LIMITATION OF LIABILITY DOES NOT APPLY TO LIMIT AMAZON'S LIABILITY FOR DEATH OR PERSONAL INJURY TO THE EXTENT ONLY THAT IT ARISES AS A RESULT OF THE NEGLIGENCE OF AMAZON OR OF ITS EMPLOYEES, AGENTS OR AUTHORISED REPRESENTATIVES. 
+
+9.	APPLICABLE LAW
+
+By using Amazon Web Services, the Amazon Properties or an Optional Service, you agree that the laws of the state of Washington, without regard to principles of conflict of laws, will govern this Agreement and any dispute of any sort that might arise between you and Amazon. 
+
+10.	ARBITRATION
+
+Any dispute relating in any way to your use of Amazon Web Services, the Amazon Properties or an Optional Service will be submitted to confidential arbitration in the following location: Luxembourg if you are a resident of the European Union; or Seattle, Washington if you are not a resident of the European Union; , except that, to the extent you have in any manner violated or threatened to violate any proprietary rights of Amazon or its licensors, we may seek injunctive or other appropriate relief in any state, federal, or national court of competent jurisdiction (and you hereby irrevocably consent to nonexclusive jurisdiction and venue of the state and federal courts of Washington State with respect to any such matters).  Arbitration under this Agreement will be conducted under the rules then prevailing of the American Arbitration Association. The arbitrator's award will be binding and may be entered as a judgment in any court of competent jurisdiction. To the fullest extent permitted by applicable law, no arbitration under this Agreement will be joined to an arbitration involving any other party subject to this Agreement, whether through class arbitration proceedings or otherwise. 
+
+11.	INDEMNIFICATION
+
+You agree to indemnify, and hold harmless Amazon and its affiliates, and each of their respective employees, directors and representatives, from and against any and all claims, costs, losses, damages, liabilities, judgments and expenses (including reasonable fees of attorneys and other professionals), arising out of or in connection with any claim, action or proceeding (any and all of which are "Claims") which in any way may result from or arise in any manner out of any act or omission by you in using Amazon Web Services, the Amazon Properties, an Optional Service, or relating to the development, operation, maintenance, and contents of your Application, including but not limited to any infringement of any third-party proprietary rights.  At Amazon's option, you will assume control of the defense and settlement of any Claim subject to indemnification by you (provided that, in such event, Amazon may at any time thereafter elect to take over control of the defense and settlement of any such Claim, and in any event, you may not settle any such Claim without Amazon's prior written consent). 
+
+12.	TERMINATION
+
+You may terminate this Agreement by ceasing to use Amazon Web Services, the Amazon Properties and all Optional Service.  The licenses contained in this Agreement will terminate automatically without notice if you fail to comply with any provision of this Agreement. We reserve the right to terminate this Agreement (and/or your account) or your access to any individual or all Optional Services provided under this Agreement, or discontinue Amazon Web Services, any Optional Services, or any portion or feature thereof for any reason and at any time in our sole discretion.  Upon any termination or notice of any discontinuance, you must immediately stop and thereafter desist from using Amazon Web Services, including the Amazon Properties, and the Optional Services, and any applicable portions or features thereof, and delete all Amazon Properties in your possession or control (including from your Application and your servers).  Upon any termination of this Agreement, all rights and obligations of Amazon and you under this Agreement will be extinguished, except that the provisions of Sections 3, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18 and this Section 12 will survive any such termination and will continue to bind you and us in accordance with their terms. 
+
+13.	MODIFICATION
+
+We may modify any of the terms and conditions contained in this Agreement, at any time and in our sole discretion, by posting a change notice or a new agreement on the Amazon Website. IF ANY MODIFICATION IS UNACCEPTABLE TO YOU, YOUR ONLY RECOURSE IS TO TERMINATE THIS AGREEMENT. YOUR CONTINUED USE OF AMAZON WEB SERVICES, THE AMAZON PROPERTIES OR AN OPTIONAL SERVICE FOLLOWING OUR POSTING OF A CHANGE NOTICE OR NEW AGREEMENT ON OUR SITE WILL CONSTITUTE BINDING ACCEPTANCE OF THE CHANGE. 
+
+14.	SEVERABILITY
+
+In the event that any portion of this Agreement will be held by a court of competent jurisdiction to be invalid or unenforceable, the remaining portions of this Agreement will remain in full force and effect and, upon Amazon's request, the court will construe any invalid or unenforceable portions in a manner that most closely reflects the effect and intent of the original language, consistent with the same being valid and enforceable. 
+
+15.	NONWAIVER
+
+No failure or forbearance by Amazon to insist upon or enforce strict performance by you of any provision of this Agreement or to exercise any of its rights or remedies under this Agreement or otherwise available at law or in equity will be construed as a waiver or relinquishment to any extent of Amazon's right to assert or rely on any such provision, right or remedy in that or any other instance; rather, the same will be and remain in full force and effect. 
+
+16.	BREACH  
+
+No breach of this Agreement on the part of Amazon will be deemed material or entitle you to any remedy unless you will have given Amazon notice thereof and Amazon will fail to cure such breach within 30 days of its receipt of such notice, if such breach is reasonably capable of being fully cured within such 30 day period; or if such breach is not reasonably capable of being fully cured within such 30 day period, unless Amazon will not have commenced to cure such breach within said 30 day period and does not proceed with reasonable diligence to complete the curing thereof.
+
+17.	ASSIGNMENT
+
+Amazon may assign this Agreement or any portion of its rights or obligations hereunder to any third party without your prior written consent. You may not assign this Agreement without our written consent. Subject to the foregoing, this Agreement will be fully binding upon, inure to the benefit of and be enforceable by the parties and their respective successors and assigns.
+
+18.	ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between you and Amazon regarding the subject matter hereof and supersedes any and all prior or contemporaneous representation, understanding, agreement or communication between you and Amazon regarding such subject matter. Except as provided by Section 13, this Agreement may not be amended, varied or supplemented except by a writing executed by both you and us that specifically references this Agreement and the provision(s) to be amended, varied or supplemented, and, without limitation of the foregoing, no provision of this Agreement will be varied, contradicted or explained by any oral agreement, course of dealing or performance, or any other matter not set forth in a writing executed as provided above in this sentence. 
+
+OUR ADDRESSES
+Amazon Services, Inc. 
+907 Tahoe Blvd. Suite 5
+Incline Village, NV,  89451
+
+Amazon Services Europe Sàrl
+26, Boulevard Royal, Luxembourg, Luxembourg
+L-2449
+
+Amazon.com Services International, Inc.
+907 Tahoe Blvd. Suite 5
+Incline Village, NV,  89451
+
+(c) 2002-2004 Amazon.com, Inc. or its affiliates
+

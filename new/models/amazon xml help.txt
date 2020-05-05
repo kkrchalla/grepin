@@ -1,0 +1,52 @@
+KeywordSearch: A search specifier that returns products for a specific keyword or keywords. A keyword is a general search term that is used to find products in the Amazon.com catalog. Often, more than one keyword is used at the same time to form a short phrase (such as "finance software"). 
+
+BrowseNodeSearch: A search specifier that returns products for a browse area of Amazon.com. (Requires that a browse node be passed in as a parameter.) A browse node is a number that corresponds to a general subject area of Amazon.com. To find browse nodes at on our Web site, visit the "browse" area of the various product lines at our Web site. When you find a subject area that you would like to generate XML for, look at the web page URL. The browse node should appear after the string "/tg/browse/-/". As an example, the following URL contains a browse node of 30: http://www.amazon.com/exec/obidos/tg/browse/-/30 
+
+AsinSearch: A search specifier that returns the product data for a specific product. (Requires that an ASIN, or "Amazon Standard Item Number" be passed in as a parameter.) To find the ASIN for a specific product, visit that product's detail page. The ASIN appears in the page's URL after the "/obidos/ASIN/" string. As an example, the following URL contains the ASIN 043935806X: http://www.amazon.com/exec/obidos/ASIN/043935806X 
+
+UpcSearch: A search specifier that returns the product data for a specific UPC. (Requires that a UPC code be passed in as a parameter.) Amazon.com's catalog contains UPC (Universal Product Code) information for music CDs and cassettes (at this time, we do not have UPC information for product lines other than music). As an example, try UPC code 076732601822. 
+
+ExchangeSearch: A search specifier that returns the product data of a third-party seller offering. (Requires that an "exchange" ID be passed in as a parameter.) To find a product's exchange ID, visit the page within our zShops area of the Web site that is devoted to that product. The ID appears in that page's URL after the "/ts/exchange-glance/" string. As an example, the following URL contains the exchange ID Y02Y4715852Y4685018: http://s1.amazon.com/exec/varzea/ts/exchange-glance/Y02Y4715852Y4685018 
+
+AuthorSearch: A search specifier that returns products for a specific author. (Requires that an author name be passed in as a parameter. Only works for the "books" product mode). As an example, try Tom Clancy. 
+
+ArtistSearch: A search specifier that returns products for a specific musician. (Requires that an artist name be passed in as a parameter. Only works for the "music" and "classical" product modes). As an example, try The Rolling Stones. 
+
+ActorSearch: A search specifier that returns products for a specific actor or actress. (Requires that an actor/actress name be passed in as a parameter. Only works for the "dvd", "vhs", and "video" product modes). As an example, try Marilyn Monroe. 
+
+DirectorSearch: A search specifier that returns products for a specific director. (Requires that a director name be passed in as a parameter. Only works for the "dvd", "vhs", and "video" product modes). As an example, try Stephen Spielberg. 
+
+ManufacturerSearch: A search specifier that returns products for a specific manufacturer. (Requires that a manufacturer name be passed in as a parameter. Only works for the "electronics", "kitchen", "videogames", "software", "photo", and "pc-hardware" product modes). As an example, try Braun (with mode=kitchen). 
+
+ListManiaSearch: A search specifier that returns the products in a Listmania! list. (Requires that a list ID be passed in as a parameter.) Listmania! lists are created by Amazon.com customers, and comprise a group of products centered on a specific theme. To find a specific list ID number, simply travel to the page that contains the list that you are interested in, and look for the list's 13 character ID in web page's URL. (It appears after the "/list-browse/-/" string). As an example, the following URL contains the list ID 34TRCFE5HC23M: http://www.amazon.com/exec/obidos/tg/listmania/list-browse/-/34TRCFE5HC23M 
+
+WishlistSearch: A search specifier that returns the products in a wish list. (Requires that a list ID be passed in as a parameter.) To find a specific wish list ID number, simply travel to the page that contains the list that you are interested in, and look for the list's 13 character ID in web page's URL. (It appears after the "/obidos/registry/" string). As an example, the following URL contains the list ID 19J6Y001ZYYD3: http://www.amazon.com/exec/obidos/registry/19J6Y001ZYYD3 
+
+SimilaritySearch: A search specifier that returns the "similarities" of another product. (Requires that an ASIN be passed in as a parameter -- see "AsinSearch" for more details). 
+
+SellerSearch: A search specifier that returns the offerings of a specific seller. (Requires that a seller ID be passed in as a parameter.) To find a seller's ID, visit the seller's "member profile" page. The ID appears in that page's URL after the "/ts/customer-glance/" string. As an example, the following URL contains a seller ID of A2OFEB6YLE4L1K: http://s1.amazon.com/exec/varzea/ts/customer-glance/A2OFEB6YLE4L1K 
+
+
+--------------------------------------------------------------------------------
+locale: The locale parameter is used to limit XML data to a specific country catalog. Currently, we support two locale values: "us" and "uk". 
+
+
+--------------------------------------------------------------------------------
+page: The page parameter is used to request a particular page of product information. Ten offerings are returned per page. (The default value is "page=1".) 
+
+
+--------------------------------------------------------------------------------
+type: The type parameter is used to specify whether the resulting XML document will be in "heavy" form (with all available product information) or "lite" form (with only essential product information). 
+
+
+--------------------------------------------------------------------------------
+mode: The mode parameter is used to filter XML data for a specific product line. Examples include "books", "music", "dvd" and others. 
+
+
+--------------------------------------------------------------------------------
+sort: The sort parameter enables the user to sort XML data results in various ways, depending on the type of product returned by the search. Examples include featured items (default), best-selling items ("+salesrank"), alphabetical ("+titlerank") and price ("+pricerank"). 
+
+
+--------------------------------------------------------------------------------
+offer: The offer parameter is used to request and limit the types of offerings returned as part of an ASIN search. If the offer parameter is not supplied then the returned data does not include any offering information. If the parameter is supplied it must be one of the following values: "ThirdPartyNew", "Used", "Collectible", "Refurbished" or "All". 
+

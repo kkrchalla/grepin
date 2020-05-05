@@ -1,0 +1,329 @@
+<table width="100%">
+<tr>
+<td valign="top">
+<br />
+<font size=2 color=bb0000> <b>Search Box HTML</b>
+<br />
+
+<font face="verdana,arial,helvetica" size=2 color=black>
+<ul type=disc>
+<li><a href="#1">Simple site search box</a>
+<li><a href="#2">Categorized Site search - using the option 'i' </a>
+<li><a href="#3">Categorized Site search - using the option 'i' - different look </a>
+<li><a href="#4">Text link to a search box</a>
+<li><a href="#5">Text link to a search results page for a query</a>
+<li><a href="#6">Tips about the search options</a>
+</ul>
+</font>
+
+<table>
+<tr>
+<td>
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="1"><b>Simple site search box</b></a>
+<blockquote>
+
+<font face="verdana,arial,helvetica" size=1>
+<form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	<input type="hidden" name="p" value="" />
+	<input type="hidden" name="i" value="" />
+	<input type="hidden" name="e" value="" />
+	<input type="hidden" name="priority" value="" />
+	<input type="hidden" name="sort" value="" />
+	<input type="hidden" name="disp" value="" />
+	<input type="hidden" name="content" value="" />
+	<input type=checkbox name="mode" value="all" />All
+	<input type="hidden" name="source" value="" />
+	<input type="text" name="q" size=20 value="" />
+	<input type="submit" value="Search"/><br />
+<a href="http://www.grepin.com/indexs.html">site search by Grepin</a>
+</form>
+</font>
+</blockquote>
+
+<font face="courier,arial,helvetica" size=3 color=green>
+<pre>
+&lt;table>
+&lt;td>
+&lt;font face="verdana,arial,helvetica" size=1>
+&lt;form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	&lt;input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	&lt;input type="hidden" name="p" value="" />
+	&lt;input type="hidden" name="i" value="" />
+	&lt;input type="hidden" name="e" value="" />
+	&lt;input type="hidden" name="priority" value="" />
+	&lt;input type="hidden" name="sort" value="" />
+	&lt;input type="hidden" name="disp" value="" />
+	&lt;input type="hidden" name="content" value="" />
+	&lt;input type=checkbox name="mode" value="all" />All
+	&lt;input type="hidden" name="source" value="" />
+	&lt;input type="text" name="q" size=20 value="" />
+	&lt;input type="submit" value="Search"/>&lt;br />
+&lt;a href="http://www.grepin.com/indexs.html">site search by Grepin&lt;/a>
+&lt;/form>
+&lt;/font>
+&lt;/td>
+&lt;/table>
+</pre>
+</font>
+
+
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="2"><b>Categorized Site search - using the option 'i'</b></a>
+<blockquote>
+
+<font face="verdana,arial,helvetica" size=1>
+<form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	<input type="hidden" name="p" value="" />
+	<input type="hidden" name="e" value="" />
+	<input type="hidden" name="priority" value="" />
+	<input type="hidden" name="sort" value="" />
+	<input type="hidden" name="disp" value="" />
+	<input type="hidden" name="content" value="" />
+	<input type=checkbox name="mode" value="all" />All
+	<input type="hidden" name="source" value="" />
+	<input type="text" name="q" size=20 value="" />
+	<select name="i">
+		<option value="" selected>All Products
+		<option value="/books/">Books
+		<option value="/videos/">Videos
+		<option value="/arts/|/crafts/">Arts &amp; Crafts
+	</select>
+	<input type="submit" value="Search"/><br />
+<a href="http://www.grepin.com/indexs.html">site search by Grepin</a>
+</form>
+</font>
+</blockquote>
+
+<font face="courier,arial,helvetica" size=3 color=green>
+<pre>
+&lt;table>
+&lt;td>
+&lt;font face="verdana,arial,helvetica" size=1>
+&lt;form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	&lt;input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	&lt;input type="hidden" name="p" value="" />
+	&lt;input type="hidden" name="e" value="" />
+	&lt;input type="hidden" name="priority" value="" />
+	&lt;input type="hidden" name="sort" value="" />
+	&lt;input type="hidden" name="disp" value="" />
+	&lt;input type="hidden" name="content" value="" />
+	&lt;input type=checkbox name="mode" value="all" />All
+	&lt;input type="hidden" name="source" value="" />
+	&lt;input type="text" name="q" size=20 value="" />
+	&lt;select name="i">
+		&lt;option value="" selected>All Products
+		&lt;option value="/books/">Books
+		&lt;option value="/videos/">Videos
+		&lt;option value="/arts/|/crafts/">Arts &amp; Crafts
+	&lt;/select>
+	&lt;input type="submit" value="Search"/>&lt;br />
+&lt;a href="http://www.grepin.com/indexs.html">site search by Grepin&lt;/a>
+&lt;/form>
+&lt;/font>
+&lt;/td>
+&lt;/table>
+</pre>
+</font>
+
+
+
+
+
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="3"><b>Categorized Site search - using the option 'i' - different look</b></a>
+<blockquote>
+
+<font face="verdana,arial,helvetica" size=1>
+<form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	<select name="i">
+		<option value="" selected>All Products
+		<option value="/books/">Books
+		<option value="/videos/">Videos
+		<option value="/arts/|/crafts/">Arts &amp; Crafts
+	</select>
+	<br />
+	<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	<input type="hidden" name="p" value="" />
+	<input type="hidden" name="e" value="" />
+	<input type="hidden" name="priority" value="" />
+	<input type="hidden" name="sort" value="" />
+	<input type="hidden" name="disp" value="" />
+	<input type="hidden" name="content" value="" />
+	<input type="hidden" name="mode" value="all" />
+	<input type="hidden" name="source" value="" />
+	<input type="text" name="q" size=20 value="" />
+	<input type="submit" value="Search"/><br />
+<a href="http://www.grepin.com/indexs.html">site search by Grepin</a>
+</form>
+</font>
+</blockquote>
+
+<font face="courier,arial,helvetica" size=3 color=green>
+<pre>
+&lt;table>
+&lt;td>
+&lt;font face="verdana,arial,helvetica" size=1>
+&lt;form action="http://www.grepin.com/cgi-bin/gsearch" method="get">
+	&lt;select name="i">
+		&lt;option value="" selected>All Products
+		&lt;option value="/books/">Books
+		&lt;option value="/videos/">Videos
+		&lt;option value="/arts/|/crafts/">Arts &amp; Crafts
+	&lt;/select>
+	&lt;br />
+	&lt;input type="hidden" name="uid" value=":::grepin-fld00:::" />
+	&lt;input type="hidden" name="p" value="" />
+	&lt;input type="hidden" name="e" value="" />
+	&lt;input type="hidden" name="priority" value="" />
+	&lt;input type="hidden" name="sort" value="" />
+	&lt;input type="hidden" name="disp" value="" />
+	&lt;input type="hidden" name="content" value="" />
+	&lt;input type="hidden" name="mode" value="all" />
+	&lt;input type="hidden" name="source" value="" />
+	&lt;input type="text" name="q" size=20 value="" />
+	&lt;input type="submit" value="Search"/>&lt;br />
+&lt;a href="http://www.grepin.com/indexs.html">site search by Grepin&lt;/a>
+&lt;/form>
+&lt;/font>
+&lt;/td>
+&lt;/table>
+</pre>
+</font>
+
+
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="4"><b>Text link to a search box</b></a>
+<blockquote>
+
+<font face="verdana,arial,helvetica" size=2>
+<a href="http://www.grepin.com/cgi-bin/gsearch?uid=:::grepin-fld00:::">Search this site</a>
+</font>
+</blockquote>
+
+<font face="courier,arial,helvetica" size=3 color=green>
+<pre>
+&lt;font face="verdana,arial,helvetica" size=2>
+&lt;a href="http://www.grepin.com/cgi-bin/gsearch?uid=:::grepin-fld00:::">
+Search this site&lt;/a>
+&lt;/font>
+</pre>
+</font>
+
+
+
+
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="5"><b>Text link to a search results page for a query</b></a>
+<blockquote>
+
+<font face="verdana,arial,helvetica" size=2>
+<a href="http://www.grepin.com/cgi-bin/gsearch?uid=:::grepin-fld00:::&q=query">Search this site for query</a>
+</font>
+</blockquote>
+
+<font face="courier,arial,helvetica" size=3 color=green>
+<pre>
+&lt;font face="verdana,arial,helvetica" size=2>
+&lt;a href="http://www.grepin.com/cgi-bin/gsearch?uid=:::grepin-fld00:::
+&q=query">Search this site for query&lt;/a>
+&lt;/font>
+</pre>
+</font>
+
+
+
+<br />
+<br />
+<font face="verdana,arial,helvetica" size=2>
+<font color=black>
+<a name="6"><b>Tips about the search options</b></a>
+
+<ul type=disc>
+<li><b>uid</b>
+<ul>
+<li>You should give your account number. If you have logged in, the account number will be automatically filled.
+</ul>
+<li><b>p - Page Number</b>
+<ul>
+<li>This would be the page number of the search results. If no value is supplied, the first page will be accessed.
+</ul>
+<li><b>i - include</b>
+<ul>
+<li>You can limit your search to a specific directory or directories or certain number of pages by giving a value in this option.
+<li>Example: If you give a value of '/books/', the search will only be performed among the pages that have '/books/' in their url path.
+<li>Example: If you give a value of '/books/|/videos/', the search will only be performed among the pages that have either '/books/' or '/videos/' in their url path.
+<li>Example: If you give a value of 'book', the search will only be performed among the pages that have 'book' in their url path. This word can occur anywhere in the url.
+</ul>
+<li><b>e - exclude</b>
+<ul>
+<li>You can exclude certain pages or directories from being searched.
+<li>Example: If you give a value of '/books/', all the pages whose url have the word '/books/' will be excluded from the search.
+<li>Example: If you give a value of 'book', all the pages that have 'book' in their url path will be excluded. This word can occur anywhere in the url.
+</ul>
+<li><b>priority</b>
+<ul>
+<li>Use this option to give high priority to the new documents over the old ones.
+<li>This field can hold a number between 0 and 10. The greater the number the higher the priority to the new documents. 
+<li>If no value is given, all documents are given equal priority.
+</ul>
+<li><b>sort</b>
+<ul>
+<li>You can sort the results by rank, title, last modification date, and file size.
+<li>A value of 'rank' will sort the results by rank.
+<li>A value of 'title' will sort the results by title.
+<li>A value of 'date' will sort the results by last modification date.
+<li>A value of 'size' will sort the results by file size.
+<li>If you do not give any value, the results will be sorted by rank.
+</ul>
+<li><b>disp</b>
+<ul>
+<li>You can control the number of search results per page by giving a value in the option.
+<li>If no value is given, 10 results per page will be displayed.
+<li>The valid values are 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, or 100.
+</ul>
+<li><b>content</b>
+<ul>
+<li>If you want to display the snippets (containing the search terms) from the contents of your page in the search results, give a value of '1' in this option.
+</ul>
+<li><b>mode</b>
+<ul>
+<li>The values can be 'all' or 'any'. If no value is given, 'any' will be assumed.
+<li>A value of 'all' will return a page in the results only if all the search terms are present in the page.
+<li>A value of 'any' will return a page in the results if any of the search terms is present in the page.
+</ul>
+<li><b>source</b>
+<ul>
+<li>This option is for your tracking purposes. If you have search box in multiple pages of your web site, you can use the value of source to track all the searches. The value of the source option will show up in the detailed search activity report.
+</ul>
+</ul>
+
+
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+</table>
+
+
+

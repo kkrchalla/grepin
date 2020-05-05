@@ -1,0 +1,114 @@
+<table width="100%">
+<tr>
+<td valign="top">
+
+<br />
+<font size=2 color=bb0000> <b>Products - Product -> Manage Keywords</b>
+<br />
+<br />
+<fieldset>
+<table>
+<tr>
+<td><font face=verdana size=0>
+<blockquote>
+<b>For help with this page, 
+<a href = "#" onClick="HelpWindow=window.open('http://www.grepin.com/faqs.html#pr1','HelpWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=600');HelpWindow.focus();return false;">click here</a>.</b>
+</font>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<table bgcolor=ffffff width="100%">
+<tr>
+<td align=left>
+<a href="http://www.grepin.com/cgi-bin/prdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Products</b></font></a>
+</td>
+<td align=right>
+<a href="http://www.grepin.com/cgi-bin/kwdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Keywords</b></font></a>
+</td>
+</tr>
+</table>
+
+<table bgcolor=ffffff width="100%"><tr><td>
+<font size=1 color=red>:::grepin-fp590:::</font>
+</td></tr></table>
+
+<table bgcolor="ffffff">
+<tr>
+<td align=left><font size=2>Product Name </font></td><td><font size=2>: :::grepin-fp500:::</font></td>
+</tr>
+<tr>
+<td align=left><font size=2>Title </font></td><td><font size=2>: :::grepin-fp501:::</font></td>
+</tr>
+<tr>
+<td align=left><font size=2>Total # of Keywords </font></td><td><font size=2>: :::grepin-fp502:::</font></td>
+</tr>
+<table>
+<br />
+<br />
+
+<form action="http://www.grepin.com/cgi-bin/prdscr" method="post">
+<input type="hidden" name="cmd" value="keyword" />
+<input type="hidden" name="fn" value="del" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+<input type="hidden" name="prd" value=":::grepin-fp500:::" />
+<input type="hidden" name="fp502" value=":::grepin-fp502:::" />
+
+<table bgcolor="ffffff">
+<tr>
+<td valign=top><font size=0 color=black face=verdana,helvalica><b>Keywords</b></td>
+<td valign=top><font size=0 color=black face=verdana,helvalica><b>Remove</b></td>
+</tr>
+	:::grepin-start-row:::
+	<dl>
+	<dt>
+		<tr>
+		<td valign=top><font size=0 color=black face=verdana,helvalica>
+			<a href = "#" onClick="pk2window=window.open('http://www.grepin.com/cgi-bin/kwdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=prd&keywrd=:::grepin-ip500:::','pk2window','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=800,height=500');pk2window.focus();return false;">:::grepin-ip500:::</a></font>
+		</td>
+		<td valign=top><font size=0 color=black face=verdana,helvalica><input type=checkbox name="ip501_:::grepin-ip502:::" value=":::grepin-ip500:::" /></font></td>
+		</tr>
+	</dt>
+	</dl>
+	:::grepin-end-row:::
+
+</table>
+<p>
+<table bgcolor="ffffff">
+<tr>
+<td><input type="submit" value="Remove Checked Keywords"/></td>
+</tr>
+</table>
+</form>
+
+<p>
+<form action="http://www.grepin.com/cgi-bin/prdscr" method="post">
+<input type="hidden" name="cmd" value="keyword" />
+<input type="hidden" name="fn" value="add" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+<input type="hidden" name="prd" value=":::grepin-fp500:::" />
+
+<table bgcolor=ffffff>
+<tr>
+	<td align=right><font size=2>
+		Keywords
+	</td>
+	<td>&nbsp;&nbsp;
+		<textarea name="fp503" cols=40 rows=5>:::grepin-fp503:::</textarea>
+	</td>
+</tr>
+<table>
+<table bgcolor=ffffff>
+<tr>
+	<td><input type="submit" value="Add Keywords"/></td>
+</tr>
+</table>
+</form>
+
+</td>
+</tr>
+</table>
+<br /><br />

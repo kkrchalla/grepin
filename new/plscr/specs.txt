@@ -1,0 +1,30 @@
+name		pl	id
+title
+description
+keywords	k
+product1	pr1
+product2	pr2
+product3	pr3
+product4	pr4
+product5	pr5
+type		t	type of box 0 - 7
+caption		c	caption for the box - default = featured
+display		d	how many products to display 1 - 5
+size		s	size of the box - s = small, m = medium, l = large
+look		l	look of the box - 0 = classic, 1 = green, 2 = blue, 
+target		win	open in which window	n = new, ' ' = same
+affiliate	aff	display affiliate link? y = yes, n = no
+text1		r1	replacement text1 in the product urls
+text2		r2	replacement text2 in the product urls
+text3		r3	replacement text3 in the product urls
+text4		r4	replacement text4 in the product urls
+text5		r5	replacement text5 in the product urls
+text6		r6	replacement text6 in the product urls
+text7		r7	replacement text7 in the product urls
+text8		r8	replacement text8 in the product urls
+text9		r9	replacement text9 in the product urls
+text10		r10	replacement text10 in the product urls
+
+by giving products, these products will be display in case there are keywords given or no matches for the keywords found.
+by select display affiliate link, an affiliate link to grepin.com with their affiliate link will be put on the bar.
+replacement texts can be used to replace the affiliate links on the product urls, or other stuffs.

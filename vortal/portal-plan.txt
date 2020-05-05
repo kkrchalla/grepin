@@ -1,0 +1,74 @@
+portal
+
+search by keyword
+search by url
+
+owner can sign up for a portal
+he can add categories
+he can add links to each category
+his users can submit links
+	this submitted link will be sent to the owner
+	he can approve the submitted link and it will be added
+his users when viewing results will see a link to tell a friend
+	they can suggest this portal to their friends
+when a page is added, it will be read by the robot and will be indexed
+owner can also remove the added link
+when the link is removed, it corresponding entries in the index will also be removed
+when the link is added, it name, description, url will be noted
+	a link can be added in multiple categories
+at the top of each page there will be ads
+	as of now these ads will be from amazon.com
+users can signup for alerts when a new page, sub-category is added in a specific directory, or the whole portal
+users can rate the page by clicking 'rate the relavancy' links
+'can't find what you are looking for?' link will ask users to start a new portal so that they can add good content
+'report bad information' link will let user tell that the data is bad and the email will be sent to the portal owner and me
+'create your own portal' link will be in all pages and will tell users how they can create a portal of their own and make money
+any person can create a portal for a fee of $50 per month. In this time, the ads in the results pages will have his id.
+    if he fails to pay the fee, the ads will have my id. these portal are called orphans
+'adopt a portal' link will let users own an orphan portal.
+
+
+articles
+	how to make money by owning a portal
+		create a niche portal, choose a topic that is very specific, not general
+		give the alternate keywords for this niche
+			to get the alternate keywords, go to ppc, search engine, 
+	how to find good pages for your portal
+		google, yahoo, ppc, howstuffworks, askjeeves, yahoo directory, dmoz directory, 
+		news, wikipedia, bitpipe (for white papers), newsisfree, zdnet.co.uk, cnet.com,
+		technorati, del.icio.us, www.europa.eu.int, factiva, and also our other portals
+	how to promote your portal
+		send the emails to your friends and ask them to spread the word
+		invite your friends to submit a url to your portal
+		
+
+
+portal		quilt, weightloss, creditcards
+category	about, designs, shops, freebies
+url		www.grepin.com/cgi-bin/webscr.pl, www.simpleweightlosstips.com/article1.html
+
+create your own portal
+adopt a portal
+delete a portal (will send an email to me to delete it)
+
+add category
+delete category (will send an email to me to delete it and will tell owner that the request has been submitted)
+	should only delete the category in this portal. The category should still be active in other portals.
+
+add url
+delete url (will send an email to me to delete it and will tell owner that the request has been submitted)
+	should only delete the url in this category. This url should still be active in other categories.
+submit url (will send an email to the owner and will tell user that the request has been submitted)
+
+can't find what you're looking for?
+report bad pages
+create an alert
+have a suggestion?
+
+
+tell a friend
+
+
+2 tracking databases
+	1. emails received reporting bad pages (pending to be processed)
+	2. emails processed deleting them 

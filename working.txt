@@ -1,0 +1,9 @@
+amzntrk
+
+amznbar
+	add new bar style
+	add to display amazon general link when error occurs
+
+amznhtml
+	add for new bar style
+

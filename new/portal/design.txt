@@ -1,0 +1,21 @@
+   signup for your own portal
+   maintain it on your own
+   visitors will submit their urls to be added to portal
+      these urls can be added automatically 
+      or can be put on wait till the owner edits them and adds them
+   each url submitted will have the keywords and description
+   each url submitted will have the user name and his personal url 
+      and this name with url will be part of the results
+   each portal owner will add his products as per the keywords
+   his report will show all the keywords that everyone is searching for 
+      and also those that do not have products
+   you can publish your submitted urls with keywords to other users
+   you can subscribe the published urls by the keywords
+   you still can accept or deny the subscribed urls
+   when you subscribe an url and when it is displayed there will also be the source displayed
+      so if you publish, you will have more visibility
+      and when you subscribe, you are giving more visibility to others as well
+
+   all the portals will have top advertising bar, right side advertising bar, 
+      and probably bottom advertising bar
+   one of these bars will have my advertising or from some pay-per-click search engine...

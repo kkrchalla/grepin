@@ -1,0 +1,71 @@
+webscr.pl
+	create account
+	edit account
+	terminate account
+	login
+	logout
+
+category.pl (login required) ****
+	create categories with description
+	edit categories and its description
+	delete categories
+	view categories and its url list
+
+path.pl (login required) ****
+	view all the existing paths
+
+urls.pl (login required) 
+	add urls with keywords and title and description
+		to a category or multiple categories
+	accept or reject pending urls (submitted by submit.pl)
+	correct urls in error status (submitted by badpage.pl)
+
+submit.pl (public) ****
+	his users can submit urls with keywords and title and description
+		and also the categories to be added to
+	his users can submit categories with description
+
+alertsub.pl (public) **** (triggered by <subscribe to alerts> on the side bar)
+	users can subscribe to receive alerts about the changes
+alertcfm.pl (public) ****
+	to confirm the alert subscription
+alertclean.pl (public) ****
+	to delete 3 day old alert subscriptions that are not confirmed
+alertunsub.pl (public) ****
+	users can unsubscribe the alerts they are subscribed to
+
+alerts.pl (automatic program) ****
+	the subscribed database is checked each day and an alert will be sent to the users
+
+reports.pl (login required)
+	activity daily
+		 monthly
+		 summary
+	submitted urls
+	badpages
+	alert subscriptions
+
+rate.pl (public) (triggered by <rate this url> after the url)
+	will rate the url as per user's input
+		this will open a new window to run the program and will say 'thank you'
+
+badpage.pl (public) (triggered by <report bad page> after the url)
+	will send an email to owner and adds it to badpages database
+
+contact.pl (public)
+	sends an email to owner or me(admin)
+
+index.pl (automatic program)
+	the urls will be read and indexed
+
+deindex.pl (automatic program)
+	the urls removed will be removed from the index tables
+
+search.pl (global search, search in a portal, search in a portal in a category)
+
+catlist.pl (displays the categories and urls in this category)
+
+logactivity.pl (logs search activity)
+
+can't find what you're looking for? start your own portal (to webscr)
+have a suggestion? please tell us.			  (to contact.pl)

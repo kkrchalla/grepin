@@ -1,0 +1,45 @@
+Case Studies:
+
+Using a 2 page website.
+
+	1)	Create a page with some useful content.
+	2)	Find the cheap keywords in Overture.com
+	3)	Place your page for these keywords.
+	4)	Sign up for affiliate programs related to these keywords and the content in your page.
+	5)	Create a promotion list with these products.
+	6)	Put the promotion list in your page.
+	7)	Whenever you find a new product, just add it to the promotion list.
+
+Using the search results page.
+
+	1)	Index your site with site search.
+	2)	Add your own products or affiliate products to the database.
+	3)	Create a promotion list of your own or use the default one.
+	4)	Whenever you find a new product, just add it to the promotion list.
+
+Using for your affiliates.
+
+	1)	Add your own products to the database.
+	2)	Create promotion lists with a replacement text variable for affiliate id.
+	3)	Use the 'choose a pl' page for your affiliates to pick a promotion list created by you and ask them to put their affiliate id in place of replacement text.
+	4)	Whenever you add a new product, just add it to the database with the replacement text variable.
+
+Using the free promotion list that uses Amazon.com
+
+	1)	A promotion list already exists by default from Amazon.com
+		It is called 'amazon'.
+	2)	Signup in amazon.com as an affiliate.
+	3)	Use the 'amazon' promotion list with user_id 'u000000', and put rt1 = amazon affiliate id.
+
+Using free site search to make money from Amazon.com	
+
+	1)	sign up for free site search.
+	2)	sign up as affiliate in amazon.com
+	3)	While creating the template, give your amazon.com affiliate id.
+	4)	Choose the look, size, and type of promotion bar to be displayed in your search results.
+	5)	You get the 50% revenue of the amazon promotion.
+		1st product in your bar uses my amazon affiliate id
+		2nd product in your bar uses your amazon affiliate id
+		3rd product in your bar uses my amazon affiliate id
+		4th product in your bar uses your amazon affiliate id
+		and so on..

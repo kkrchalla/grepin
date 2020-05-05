@@ -1,0 +1,150 @@
+<table width="100%">
+<tr>
+<td valign="top">
+
+<br />
+<font size=2 color=bb0000> <b>Products - Add</b>
+<br />
+<br />
+<fieldset>
+<table>
+<tr>
+<td><font face=verdana size=0>
+<blockquote>
+Just fill the following form and click the "Add" button. 
+<br />
+<b>For help with this page, 
+<a href = "#" onClick="HelpWindow=window.open('http://www.grepin.com/faqs.html#pr1','HelpWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=600');HelpWindow.focus();return false;">click here</a>.</b>
+</font>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<table bgcolor=ffffff width="100%">
+<tr>
+<td align=left>
+<a href="http://www.grepin.com/cgi-bin/prdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Products</b></font></a>
+</td>
+<td align=right>
+<a href="http://www.grepin.com/cgi-bin/kwdscr?uid=:::grepin-fld00:::&sid=:::grepin-fld01:::&cmd=list"><font face=verdana,helvata size=2><b>All Keywords</b></font></a>
+</td>
+</tr>
+</table>
+
+<table bgcolor=ffffff width="100%"><tr><td>
+<font size=1 color=red>:::grepin-fp190:::</font>
+</td></tr></table>
+
+<form action="http://www.grepin.com/cgi-bin/prdscr" method="post">
+<input type="hidden" name="cmd" value="add" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+<input type="hidden" name="fn" value="model" />
+<fieldset>
+<table bgcolor=ffffff width="100%">
+<tr><td width=200></td><td></td></tr>
+<tr>
+	<td align=right><font size=2>
+		Model from</font>
+	</td>
+	<td>&nbsp;&nbsp;
+		<input type="text" name="prd" size=10 maxlength=10 />
+		<input type="submit" value="Go"/>
+	</td>
+</tr>
+</table>
+</fieldset>
+</form>
+
+<a name="form"></a>
+<form action="http://www.grepin.com/cgi-bin/prdscr" method="post">
+<input type="hidden" name="cmd" value="add" />
+<input type="hidden" name="uid" value=":::grepin-fld00:::" />
+<input type="hidden" name="sid" value=":::grepin-fld01:::" />
+
+<table bgcolor=ffffff width="100%">
+<tr><td width=200></td><td></td></tr>
+<tr>
+	<td align=right><font size=2>
+		Name 
+	</td>
+	<td><font color=red>*</font>&nbsp;
+		<input type="text" name="fp100" size=10 maxlength=10 value=":::grepin-fp100:::" />
+	&nbsp;&nbsp;<font size=0><a href = "#" onClick="guidewin=window.open('http://www.grepin.com/prguide.html','guidewin','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=500,height=500');guidewin.focus();return false;">Guidelines to create a Product</a></font>
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Title 
+	</td>
+	<td><font color=red>*</font>&nbsp;
+		<input type="text" name="fp101" size=55 maxlength=60 value=":::grepin-fp101:::" />
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Description 
+	</td>
+	<td><font color=red>*</font>&nbsp;
+		<textarea name="fp102" cols=40 rows=3>:::grepin-fp102:::</textarea>
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Image URL
+	</td>
+	<td>&nbsp;&nbsp;
+		<input type="text" name="fp103" size=40 value=":::grepin-fp103:::" />
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Destination URL 
+	</td>
+	<td><font color=red>*</font>&nbsp;
+		<input type="text" name="fp104" size=40 value=":::grepin-fp104:::" />
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Theme Product
+	</td>
+	<td>&nbsp;&nbsp;<font size=2>
+		<input type="radio" name="fp105" value="1" :::grepin-fp105a:::/>Yes
+		<input type="radio" name="fp105" value="0" :::grepin-fp105:::/>No
+		</font>
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Comments
+	</td>
+	<td>&nbsp;&nbsp;
+		<textarea name="fp107" cols=40 rows=3>:::grepin-fp107:::</textarea>
+	</td>
+</tr>
+<tr>
+	<td align=right><font size=2>
+		Keywords 
+	</td>
+	<td><font color=red>*</font>&nbsp;
+		<textarea name="fp106" cols=30 rows=5>:::grepin-fp106:::</textarea>
+	</td>
+</tr>
+<tr><td><br /></td></tr>
+</table>
+
+<table bgcolor=ffffff width="100%">
+<tr>
+	<td><center>
+		<input type="submit" value="Add"/>
+	</center>
+	</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+<br /><br />

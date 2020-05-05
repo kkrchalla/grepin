@@ -1,0 +1,71 @@
+
+Member Page:
+
+suggest a feature
+
+
+general
+	stats
+		web site address
+		member since
+		member type
+	account management
+	terminate account
+	change plan
+	affiliate program
+
+site search
+	stats
+		last indexed date
+		num of pages indexed
+		num of terms indexed
+	configure your site index
+	re-index your site
+
+promotion list
+	stats
+		number of products
+		number of keywords
+		number of promotion lists
+	quick add - products and keywords
+	products management
+	keywords management
+	promotion lists management
+
+templates
+	stats
+		number of templates
+	templates management
+
+reports
+	site search
+		detailed
+			last 7 days
+		monthly
+			results found
+			no results found
+		summary
+			results found
+			no results found
+	promotion list
+		detailed
+		monthly
+			group by product
+				displays
+				clicks
+			group by keyword
+				displays
+				clicks
+			group by promotion list
+				displays
+				clicks
+		summary
+			group by product
+				displays
+				clicks
+			group by keyword
+				displays
+				clicks
+			group by promotion list
+				displays
+				clicks
